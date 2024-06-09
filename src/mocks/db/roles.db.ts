@@ -25,6 +25,42 @@ export const rolesDbList = {
 			[modulesDbList.product.id]: 7 as TPermission['value'],
 			[modulesDbList.category.id]: 7 as TPermission['value'],
 		},
+	},
+	plantNetworkLeader: {
+		id: 'plantNetworkLeader',
+		name: 'Plant Network Leader',
+		certsRequired: {
+			[modulesDbList.customer.id]: 7 as TPermission['value'],
+			[modulesDbList.product.id]: 7 as TPermission['value'],
+			[modulesDbList.category.id]: 7 as TPermission['value'],
+		},
+	},
+	trainee: {
+		id: 'plantNetworkLeader',
+		name: 'Plant Network Leader',
+		certsRequired: {
+			[modulesDbList.customer.id]: 7 as TPermission['value'],
+			[modulesDbList.product.id]: 7 as TPermission['value'],
+			[modulesDbList.category.id]: 7 as TPermission['value'],
+		},
+	},
+	backupPnl: {
+		id: 'backupPnl',
+		name: 'Backup PNL',
+		certsRequired: {
+			[modulesDbList.customer.id]: 7 as TPermission['value'],
+			[modulesDbList.product.id]: 7 as TPermission['value'],
+			[modulesDbList.category.id]: 7 as TPermission['value'],
+		},
+	},
+	personnel: {
+		id: 'personnel',
+		name: 'Personnel',
+		certsRequired: {
+			[modulesDbList.customer.id]: 7 as TPermission['value'],
+			[modulesDbList.product.id]: 7 as TPermission['value'],
+			[modulesDbList.category.id]: 7 as TPermission['value'],
+		},
 	}
 };
 

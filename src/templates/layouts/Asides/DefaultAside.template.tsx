@@ -24,12 +24,20 @@ const DefaultAsideTemplate = () => {
 			<AsideBody>
 				<Nav>
 					<NavItem {...appPages.dashboardPages.subPages.mainOverviewDashboardPage} />
+					<NavItem {...appPages.reportPages.subPages.employeeSkillsReportPage} />
+
 					<NavSeparator />
 					<NavCollapse
 						text={appPages.dashboardPages.text}
 						to={appPages.dashboardPages.to}
 						icon={appPages.dashboardPages.icon}>
 						<NavItem {...appPages.dashboardPages.subPages.mainOverviewDashboardPage} />
+					</NavCollapse>
+					<NavCollapse
+						text={appPages.reportPages.text}
+						to={appPages.reportPages.to}
+						icon={appPages.reportPages.icon}>
+						<NavItem {...appPages.reportPages.subPages.employeeSkillsReportPage} />
 					</NavCollapse>
 					<NavCollapse
 						text={appPages.managementPages.text}

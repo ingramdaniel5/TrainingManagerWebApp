@@ -35,16 +35,16 @@ export const appPages = {
 		},
 	},
 	reportPages: {
-		id: 'report',
+		id: 'reportPages',
 		to: '/report',
 		text: 'Reports',
 		icon: 'HeroClipboardDocumentList',
 		subPages: {
-			mainOverviewDashboardPage: {
-				id: 'moDashboardPage',
-				to: '/dashboard/overview',
-				text: 'Main Overview',
-				icon: 'HeroRectangleGroup',
+			employeeSkillsReportPage: {
+				id: 'employeeSkillsReportPage',
+				to: '/report/employeeSkills',
+				text: 'Employee Skills',
+				icon: 'HeroClipboardDocumentCheck',
 			},
 		},
 	},
